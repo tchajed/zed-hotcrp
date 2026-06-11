@@ -1,0 +1,36 @@
+{
+  "grammars": [
+    {
+      "name": "hotcrp",
+      "camelcase": "Hotcrp",
+      "title": "HotCRP",
+      "scope": "source.hotcrp",
+      "file-types": [
+        "hotcrp.txt",
+        "review.txt",
+        "reviews.txt"
+      ],
+      "injection-regex": "^hotcrp$",
+      "class-name": "TreeSitterHotcrp"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for HotCRP offline review files",
+    "authors": [
+      {
+        "name": "Tej Chajed"
+      }
+    ]
+  },
+  "bindings": {
+    "c": true,
+    "node": false,
+    "rust": false,
+    "python": false,
+    "go": false,
+    "swift": false,
+    "zig": false
+  }
+}

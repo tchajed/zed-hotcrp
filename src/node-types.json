@@ -1,0 +1,86 @@
+[
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "blank_line",
+          "named": true
+        },
+        {
+          "type": "comment_line",
+          "named": true
+        },
+        {
+          "type": "field_marker",
+          "named": true
+        },
+        {
+          "type": "field_name",
+          "named": true
+        },
+        {
+          "type": "paper_line",
+          "named": true
+        },
+        {
+          "type": "score_option",
+          "named": true
+        },
+        {
+          "type": "separator_line",
+          "named": true
+        },
+        {
+          "type": "template_line",
+          "named": true
+        },
+        {
+          "type": "text_line",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "blank_line",
+    "named": true
+  },
+  {
+    "type": "comment_line",
+    "named": true
+  },
+  {
+    "type": "field_marker",
+    "named": true
+  },
+  {
+    "type": "field_name",
+    "named": true
+  },
+  {
+    "type": "paper_line",
+    "named": true
+  },
+  {
+    "type": "score_option",
+    "named": true
+  },
+  {
+    "type": "separator_line",
+    "named": true
+  },
+  {
+    "type": "template_line",
+    "named": true
+  },
+  {
+    "type": "text_line",
+    "named": true
+  }
+]

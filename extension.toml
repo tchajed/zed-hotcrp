@@ -1,0 +1,11 @@
+id = "hotcrp"
+name = "HotCRP"
+version = "0.0.1"
+schema_version = 1
+authors = ["Tej Chajed"]
+description = "Syntax highlighting for HotCRP offline review files."
+repository = "https://github.com/tchajed/zed-hotcrp"
+
+[grammars.hotcrp]
+repository = "https://github.com/tchajed/zed-hotcrp"
+commit = "0000000000000000000000000000000000000000"

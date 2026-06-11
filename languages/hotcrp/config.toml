@@ -1,0 +1,14 @@
+name = "HotCRP"
+grammar = "hotcrp"
+# HotCRP offline review files are usually .txt files. Zed cannot reliably
+# distinguish every .txt file, so this extension claims common HotCRP names.
+path_suffixes = [
+  "hotcrp.txt",
+  "review.txt",
+  "reviews.txt",
+  "offline-review.txt",
+  "offline-reviews.txt",
+  "hotcrp",
+]
+line_comments = ["# "]
+word_characters = ["_", "-", "#"]

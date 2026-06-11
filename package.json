@@ -1,0 +1,24 @@
+{
+  "name": "tree-sitter-hotcrp",
+  "version": "0.0.1",
+  "description": "Tree-sitter grammar for HotCRP offline review files",
+  "main": "grammar.js",
+  "keywords": [
+    "tree-sitter",
+    "hotcrp"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tree-sitter-cli": "^0.25.8"
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.hotcrp",
+      "file-types": [
+        "hotcrp.txt",
+        "review.txt",
+        "reviews.txt"
+      ]
+    }
+  ]
+}
