@@ -8,4 +8,4 @@ repository = "https://github.com/tchajed/zed-hotcrp"
 
 [grammars.hotcrp]
 repository = "https://github.com/tchajed/zed-hotcrp"
-commit = "0000000000000000000000000000000000000000"
+commit = "8d9a6b2776ab0ecb7a7115a9e221276c84f3a35d"
